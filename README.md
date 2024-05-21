@@ -2,7 +2,7 @@
 A computer network is a system that connects numerous independent computers in order to share information (data) and resources.
 
 OSI Model (Open systems Interconnection):
-OSI model is a set of standards that defines how computers communicate over a network. It has 7 layer and data flow gets broken down into seven layers that build upon each other. Each layer uses data from the layer before it and serves a specific purpose in the broader network communication.
+ OSI model is a set of standards that defines how computers communicate over a network. It has 7 layer and data flow gets broken down into seven layers that build upon each other. Each layer uses data from the layer before it and serves a specific purpose in the broader network communication.
 
 Physical layer
 Data link layer
@@ -11,6 +11,7 @@ Transport layer
 Session layer
 Presentation layer
 Application layer
+
 Physical layer
 The physical layer is the first and lowest layer: the layer most closely associated with the physical connection between devices. The physical layer provides an electrical, mechanical, and procedural interface to the transmission medium.
 
@@ -39,6 +40,7 @@ Physical layer
 Network layer
 Transport layer
 Application layer
+
 TCP v/s UDP
 TCP is a connection-oriented protocol. This means that it first establishes a link between the source and destination before it sends data. Once the connection has been made, then TCP breaks down large data sets into smaller packets, sends them along the connection, and ensures data integrity throughout the entire process. TCP is a preferred protocol when data integrity is critical, such as in any transactional system.
 
